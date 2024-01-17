@@ -1,4 +1,4 @@
-from utilitj import bscMath
+from utilitj import bscMath, text
 
 def test_sum():
     assert bscMath.sum(
@@ -9,3 +9,8 @@ def test_avg():
     assert bscMath.avg(
         [1, 1, 1, 1, 1]
     ) == 1
+
+def test_spacer():
+    assert text.spacer(
+        25, True
+    ) == "──────────────────────────────────────────────────"
