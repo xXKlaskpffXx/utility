@@ -2,7 +2,8 @@ README.md
 setup.py
 tests/test_functions.py
 utilitj/__init__.py
-utilitj/functions.py
+utilitj/avg.py
+utilitj/sum.py
 utilitj.egg-info/PKG-INFO
 utilitj.egg-info/SOURCES.txt
 utilitj.egg-info/dependency_links.txt
